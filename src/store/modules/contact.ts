@@ -47,7 +47,7 @@ const useStore = defineStore("contact", {
     async getFriendListFromReq() {
       try {
         const { data } = await IMSDK.getFriendList();
-        this.friendList = data.map((user) => user.friendInfo!);
+        this.friendList = data.map((user) => user?.friendInfo!);
       } catch (error) {
         console.error(error);
       }
