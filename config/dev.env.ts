@@ -2,7 +2,7 @@
 export default {
   NODE_ENV: "development",
   // 业务服务器地址
-  CHAT_URL: "http://114.67.231.163:20008",
+  CHAT_URL: "http://114.67.231.163:10008",
   // IM api地址
   API_URL: "http://114.67.231.163:10002",
   // IM 配置获取地址
